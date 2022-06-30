@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
-        <!--Second.swift-->
+        <!--Swift-->
         <scene sceneID="7xo-s8-1KK">
             <objects>
                 <viewController id="nDK-88-zcg" customClass="Second.swift" sceneMemberID="viewController">
@@ -108,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="79.6875"/>
         </scene>
-        <!--Brain Page.swift-->
+        <!--Swift-->
         <scene sceneID="vxw-Va-r6S">
             <objects>
                 <viewController id="2W4-y2-5kB" customClass="BrainPage.swift" sceneMemberID="viewController">
@@ -136,7 +135,7 @@
             </objects>
             <point key="canvasLocation" x="1586.9565217391305" y="-304.01785714285711"/>
         </scene>
-        <!--Kidneys Page.swift-->
+        <!--Swift-->
         <scene sceneID="dEQ-Jx-yFi">
             <objects>
                 <viewController id="OAi-m6-WLR" customClass="KidneysPage.swift" sceneMemberID="viewController">
@@ -164,7 +163,7 @@
             </objects>
             <point key="canvasLocation" x="806" y="820"/>
         </scene>
-        <!--Heart Page.swift-->
+        <!--Swift-->
         <scene sceneID="chp-k3-X2p">
             <objects>
                 <viewController id="LXN-Pg-b6Y" customClass="HeartPage.swift" sceneMemberID="viewController">
@@ -197,8 +196,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrP-3c-1bL">
                                 <rect key="frame" x="31" y="371" width="353" height="438"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The heart is an essential, powerful organ that constantly pumps oxygen and nutrients around the body.
-The heart consists of four chambers: There are two atria, which are the upper chambers that receive blood. There are two ventricles, which are lower chambers that discharge blood. The right side of the heart receives deoxygenated blood and sends it to the lungs. The left side of the heart receives blood from the lungs and pumps it to the rest of the body.A healthy pulse is usually 60–100 bpm, and what is normal can vary from person to person and can depend on many factors. </mutableString>
+                                <string key="text">The heart is an essential, powerful organ that constantly pumps oxygen and nutrients around the body.
+The heart consists of four chambers: There are two atria, which are the upper chambers that receive blood. There are two ventricles, which are lower chambers that discharge blood. The right side of the heart receives deoxygenated blood and sends it to the lungs. The left side of the heart receives blood from the lungs and pumps it to the rest of the body.A healthy pulse is usually 60–100 bpm, and what is normal can vary from person to person and can depend on many factors. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -207,11 +206,6 @@ The heart consists of four chambers: There are two atria, which are the upper ch
                                 <rect key="frame" x="271" y="817" width="113" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.45921500069999999" green="0.5507228461" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="3oA-9j-Xzq" kind="presentation" modalPresentationStyle="fullScreen" id="rbb-9o-Nqi"/>
                                 </connections>
@@ -220,11 +214,6 @@ The heart consists of four chambers: There are two atria, which are the upper ch
                                 <rect key="frame" x="20" y="817" width="113" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.45921500069999999" green="0.5507228461" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="utM-Hs-81u"/>
                                 </connections>
