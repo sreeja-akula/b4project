@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
-        <!--Second.swift-->
+        <!--Swift-->
         <scene sceneID="7xo-s8-1KK">
             <objects>
                 <viewController id="nDK-88-zcg" customClass="Second.swift" sceneMemberID="viewController">
@@ -108,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="79.6875"/>
         </scene>
-        <!--Brain Page.swift-->
+        <!--Swift-->
         <scene sceneID="vxw-Va-r6S">
             <objects>
                 <viewController id="2W4-y2-5kB" customClass="BrainPage.swift" customModule="b4project" customModuleProvider="target" sceneMemberID="viewController">
@@ -158,18 +157,6 @@
                                 <rect key="frame" x="10" y="509" width="394" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Da-pr8">
-                                <rect key="frame" x="35" y="522" width="69" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
-                                <state key="normal" title="Frontal Lobe">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="frontalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="Fp6-1H-VCn"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5b-tD-oNI">
                                 <rect key="frame" x="289" y="522" width="71" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -178,9 +165,6 @@
                                 <state key="normal" title="Parietal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="parietalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="K92-m7-mHK"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-ph-vfu">
                                 <rect key="frame" x="111" y="717" width="83" height="30"/>
@@ -190,9 +174,6 @@
                                 <state key="normal" title="Temporal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="temporalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="QdS-6Z-a2N"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-5X-qT7">
                                 <rect key="frame" x="327" y="677" width="77" height="26"/>
@@ -202,8 +183,18 @@
                                 <state key="normal" title="Occipital Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Da-pr8">
+                                <rect key="frame" x="35" y="522" width="69" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <state key="normal" title="Frontal Lobe">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
                                 <connections>
-                                    <action selector="occipitalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="O3A-7t-KXB"/>
+                                    <action selector="fL1:" destination="2W4-y2-5kB" eventType="touchUpInside" id="9rV-DP-Or7"/>
+                                    <action selector="frontalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="VOk-wV-wLM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,7 +206,7 @@
             </objects>
             <point key="canvasLocation" x="1586.9565217391305" y="-304.01785714285711"/>
         </scene>
-        <!--Kidneys Page.swift-->
+        <!--Swift-->
         <scene sceneID="dEQ-Jx-yFi">
             <objects>
                 <viewController id="OAi-m6-WLR" customClass="KidneysPage.swift" sceneMemberID="viewController">
@@ -243,7 +234,7 @@
             </objects>
             <point key="canvasLocation" x="806" y="820"/>
         </scene>
-        <!--Heart Page.swift-->
+        <!--Swift-->
         <scene sceneID="chp-k3-X2p">
             <objects>
                 <viewController id="LXN-Pg-b6Y" customClass="HeartPage.swift" sceneMemberID="viewController">
@@ -499,13 +490,13 @@ leaky heart valves</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9g-v8-HeQ">
                                 <rect key="frame" x="20" y="158" width="374" height="631"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Some lifestyle measures can help to reduce the risk of heart disease. These include
+                                <string key="text">Some lifestyle measures can help to reduce the risk of heart disease. These include
 Eating a balanced diet: Opt for a heart-healthy diet that is rich in fiber and favors whole grains and fresh fruits and vegetables. 
 Exercising regularly: This can help strengthen the heart and circulatory system, reduce cholesterol, and maintain blood pressure. A person may aim for 150 minutes of exercise per week. 
 Maintaining a moderate body weight: A healthy body mass index (BMI) is typically between 20 and 25. 
 Quitting or avoiding smoking: Smoking is a major risk factor for heart and cardiovascular conditions.
 Limiting alcohol intake: Women should consume no more than one standard drink per day, and men should consume no more than two standard drinks per day.
-Managing underlying conditions: Seek treatment for conditions that affect heart health, such as high blood pressure, obesity, and diabetes.</mutableString>
+Managing underlying conditions: Seek treatment for conditions that affect heart health, such as high blood pressure, obesity, and diabetes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

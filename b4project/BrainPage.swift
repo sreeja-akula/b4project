@@ -15,7 +15,9 @@ class BrainPage: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func frontalLobe(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -26,15 +28,6 @@ class BrainPage: UIViewController {
     }
     */
 
-    @IBAction func frontalLobe(_ sender: UIButton) {
-    }
-    @IBAction func parietalLobe(_ sender: UIButton) {
-    }
-    
-    @IBAction func temporalLobe(_ sender: UIButton) {
-    }
-    @IBAction func occipitalLobe(_ sender: UIButton) {
-    }
     
     
 }
