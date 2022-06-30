@@ -73,6 +73,7 @@
                                 </state>
                                 <connections>
                                     <action selector="brainButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="sYA-wz-BdM"/>
+                                    <segue destination="2W4-y2-5kB" kind="show" id="o5I-ms-8zF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="427-EO-kjk">
@@ -85,6 +86,7 @@
                                 </state>
                                 <connections>
                                     <action selector="heartButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="Rfh-3Z-w45"/>
+                                    <segue destination="LXN-Pg-b6Y" kind="show" id="iBD-xk-LGO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3R-aE-DR0">
@@ -97,6 +99,7 @@
                                 </state>
                                 <connections>
                                     <action selector="kidneysButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="LlL-VJ-Azd"/>
+                                    <segue destination="OAi-m6-WLR" kind="show" id="YC1-sx-hnQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -110,6 +113,99 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bH8-q3-3mD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="79.6875"/>
+        </scene>
+        <!--Swift-->
+        <scene sceneID="vxw-Va-r6S">
+            <objects>
+                <viewController id="2W4-y2-5kB" customClass="BrainPage.swift" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KRt-qJ-MPS"/>
+                        <viewControllerLayoutGuide type="bottom" id="PJl-k0-Rqu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rAC-J9-SpX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Brain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjQ-pV-WTh">
+                                <rect key="frame" x="119" y="56" width="196" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zxw-r1-494"/>
+                    <connections>
+                        <outlet property="brainPageLabel" destination="HjQ-pV-WTh" id="xyb-Ae-AxE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gkH-MD-VkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1586.9565217391305" y="-304.01785714285711"/>
+        </scene>
+        <!--Swift-->
+        <scene sceneID="dEQ-Jx-yFi">
+            <objects>
+                <viewController id="OAi-m6-WLR" customClass="KidneysPage.swift" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Et5-US-WKe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tys-PA-XWc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="61d-Kg-M3a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Kidneys" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-LA-qIi">
+                                <rect key="frame" x="186" y="76" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jqH-Kl-ROR"/>
+                    <connections>
+                        <outlet property="kidneysPageLabel" destination="oaW-LA-qIi" id="ltd-2Y-hoL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDt-91-6OH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="806" y="820"/>
+        </scene>
+        <!--Swift-->
+        <scene sceneID="chp-k3-X2p">
+            <objects>
+                <viewController id="LXN-Pg-b6Y" customClass="HeartPage.swift" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YsS-lX-RAU"/>
+                        <viewControllerLayoutGuide type="bottom" id="sjl-9u-i7n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xYy-fw-Gva">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Heart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhG-Fb-MV1">
+                                <rect key="frame" x="174" y="80" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X7q-v0-lvQ"/>
+                    <connections>
+                        <outlet property="heartPageLabel" destination="RhG-Fb-MV1" id="xev-Pl-y61"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLc-ef-xMv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587" y="362"/>
         </scene>
     </scenes>
     <resources>
