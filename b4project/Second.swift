@@ -25,15 +25,6 @@ class Second: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBOutlet weak var topics: UILabel!
-    
-    @IBAction func brainButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func heartButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func kidneysButton(_ sender: UIButton) {
-    }
+   
     
 }

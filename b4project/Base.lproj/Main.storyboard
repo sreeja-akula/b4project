@@ -33,8 +33,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="getStartedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTv-ca-ni0"/>
-                                    <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="83L-qD-GOk"/>
+                                    <segue destination="nDK-88-zcg" kind="show" id="Zuq-hq-QsD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -73,8 +72,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="brainButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="sYA-wz-BdM"/>
-                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="o5I-ms-8zF"/>
+                                    <segue destination="2W4-y2-5kB" kind="show" id="whh-7D-tOH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="427-EO-kjk">
@@ -86,7 +84,6 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="heartButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="Rfh-3Z-w45"/>
                                     <segue destination="LXN-Pg-b6Y" kind="presentation" modalPresentationStyle="fullScreen" id="iBD-xk-LGO"/>
                                 </connections>
                             </button>
@@ -99,15 +96,11 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="kidneysButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="LlL-VJ-Azd"/>
                                     <segue destination="OAi-m6-WLR" kind="presentation" modalPresentationStyle="fullScreen" id="YC1-sx-hnQ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <connections>
-                            <outlet property="topics" destination="0Fd-JO-Ecl" id="Ndh-Fn-xfK"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="fJd-VA-xNt"/>
                 </viewController>
@@ -124,7 +117,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PJl-k0-Rqu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rAC-J9-SpX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Brain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjQ-pV-WTh">
@@ -138,9 +131,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zxw-r1-494"/>
-                    <connections>
-                        <outlet property="brainPageLabel" destination="HjQ-pV-WTh" id="xyb-Ae-AxE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkH-MD-VkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,9 +159,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="jqH-Kl-ROR"/>
-                    <connections>
-                        <outlet property="kidneysPageLabel" destination="oaW-LA-qIi" id="ltd-2Y-hoL"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDt-91-6OH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -246,9 +233,6 @@ The heart consists of four chambers: There are two atria, which are the upper ch
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="X7q-v0-lvQ"/>
-                    <connections>
-                        <outlet property="heartPageLabel" destination="RhG-Fb-MV1" id="xev-Pl-y61"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FLc-ef-xMv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
