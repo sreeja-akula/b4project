@@ -136,6 +136,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n73-Th-pOJ">
+                                <rect key="frame" x="151" y="755" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="⬅️Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="iUg-T5-3Rb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -424,10 +435,11 @@ leaky heart valves</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="uBr-qc-ASX"/>
         <segue reference="k69-ez-0gs"/>
-        <segue reference="xXm-hj-6dr"/>
+        <segue reference="rbb-9o-Nqi"/>
         <segue reference="ErC-aB-jdu"/>
-        <segue reference="utM-Hs-81u"/>
+        <segue reference="iUg-T5-3Rb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-06-30 at 10.45.30 AM" width="848" height="622"/>
