@@ -16,6 +16,7 @@
 		84BBC046286CD802000D8EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBC044286CD802000D8EE4 /* LaunchScreen.storyboard */; };
 		84BBC051286CD803000D8EE4 /* b4projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBC050286CD803000D8EE4 /* b4projectTests.swift */; };
 		84BBC05C286CD803000D8EE4 /* b4projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBC05B286CD803000D8EE4 /* b4projectUITests.swift */; };
+		84BBC06A286D3354000D8EE4 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBC069286D3354000D8EE4 /* Second.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		84BBC057286CD803000D8EE4 /* b4projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = b4projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBC05B286CD803000D8EE4 /* b4projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b4projectUITests.swift; sourceTree = "<group>"; };
 		84BBC05D286CD803000D8EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BBC069286D3354000D8EE4 /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				84BBC036286CD800000D8EE4 /* AppDelegate.swift */,
 				84BBC038286CD800000D8EE4 /* SceneDelegate.swift */,
 				84BBC03A286CD800000D8EE4 /* ViewController.swift */,
+				84BBC069286D3354000D8EE4 /* Second.swift */,
 				84BBC03C286CD800000D8EE4 /* Main.storyboard */,
 				84BBC042286CD802000D8EE4 /* Assets.xcassets */,
 				84BBC044286CD802000D8EE4 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				84BBC03B286CD800000D8EE4 /* ViewController.swift in Sources */,
 				84BBC037286CD800000D8EE4 /* AppDelegate.swift in Sources */,
+				84BBC06A286D3354000D8EE4 /* Second.swift in Sources */,
 				84BBC039286CD800000D8EE4 /* SceneDelegate.swift in Sources */,
 				84BBC041286CD800000D8EE4 /* b4project.xcdatamodeld in Sources */,
 			);
