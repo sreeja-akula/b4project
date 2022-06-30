@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +45,7 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
-        <!--Swift-->
+        <!--Second.swift-->
         <scene sceneID="7xo-s8-1KK">
             <objects>
                 <viewController id="nDK-88-zcg" customClass="Second.swift" sceneMemberID="viewController">
@@ -73,7 +74,7 @@
                                 </state>
                                 <connections>
                                     <action selector="brainButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="sYA-wz-BdM"/>
-                                    <segue destination="2W4-y2-5kB" kind="show" id="o5I-ms-8zF"/>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="o5I-ms-8zF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="427-EO-kjk">
@@ -86,7 +87,7 @@
                                 </state>
                                 <connections>
                                     <action selector="heartButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="Rfh-3Z-w45"/>
-                                    <segue destination="LXN-Pg-b6Y" kind="show" id="iBD-xk-LGO"/>
+                                    <segue destination="LXN-Pg-b6Y" kind="presentation" modalPresentationStyle="fullScreen" id="iBD-xk-LGO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3R-aE-DR0">
@@ -99,7 +100,7 @@
                                 </state>
                                 <connections>
                                     <action selector="kidneysButton:" destination="myT-tG-jQX" eventType="touchUpInside" id="LlL-VJ-Azd"/>
-                                    <segue destination="OAi-m6-WLR" kind="show" id="YC1-sx-hnQ"/>
+                                    <segue destination="OAi-m6-WLR" kind="presentation" modalPresentationStyle="fullScreen" id="YC1-sx-hnQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -114,7 +115,7 @@
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="79.6875"/>
         </scene>
-        <!--Swift-->
+        <!--Brain Page.swift-->
         <scene sceneID="vxw-Va-r6S">
             <objects>
                 <viewController id="2W4-y2-5kB" customClass="BrainPage.swift" sceneMemberID="viewController">
@@ -123,7 +124,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PJl-k0-Rqu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rAC-J9-SpX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Brain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjQ-pV-WTh">
@@ -145,7 +146,7 @@
             </objects>
             <point key="canvasLocation" x="1586.9565217391305" y="-304.01785714285711"/>
         </scene>
-        <!--Swift-->
+        <!--Kidneys Page.swift-->
         <scene sceneID="dEQ-Jx-yFi">
             <objects>
                 <viewController id="OAi-m6-WLR" customClass="KidneysPage.swift" sceneMemberID="viewController">
@@ -154,7 +155,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Tys-PA-XWc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="61d-Kg-M3a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Kidneys" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-LA-qIi">
@@ -176,7 +177,7 @@
             </objects>
             <point key="canvasLocation" x="806" y="820"/>
         </scene>
-        <!--Swift-->
+        <!--Heart Page.swift-->
         <scene sceneID="chp-k3-X2p">
             <objects>
                 <viewController id="LXN-Pg-b6Y" customClass="HeartPage.swift" sceneMemberID="viewController">
@@ -185,7 +186,7 @@
                         <viewControllerLayoutGuide type="bottom" id="sjl-9u-i7n"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xYy-fw-Gva">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Heart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhG-Fb-MV1">
@@ -195,6 +196,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="os3-Nm-7Pn">
+                                <rect key="frame" x="136" y="327" width="142" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-30 at 10.45.30 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Lr1-OT-GI5">
+                                <rect key="frame" x="20" y="109" width="374" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrP-3c-1bL">
+                                <rect key="frame" x="31" y="371" width="353" height="438"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">The heart is an essential, powerful organ that constantly pumps oxygen and nutrients around the body.
+The heart consists of four chambers: There are two atria, which are the upper chambers that receive blood. There are two ventricles, which are lower chambers that discharge blood. The right side of the heart receives deoxygenated blood and sends it to the lungs. The left side of the heart receives blood from the lungs and pumps it to the rest of the body.A healthy pulse is usually 60–100 bpm, and what is normal can vary from person to person and can depend on many factors. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1V-0d-5UC">
+                                <rect key="frame" x="271" y="817" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.45921500069999999" green="0.5507228461" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="3oA-9j-Xzq" kind="presentation" modalPresentationStyle="fullScreen" id="rbb-9o-Nqi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSV-0c-0DH">
+                                <rect key="frame" x="20" y="817" width="113" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.45921500069999999" green="0.5507228461" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="utM-Hs-81u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -205,10 +252,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FLc-ef-xMv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1587" y="362"/>
+            <point key="canvasLocation" x="1586.9565217391305" y="361.60714285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bTb-UV-wOZ">
+            <objects>
+                <viewController id="3oA-9j-Xzq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8yr-Fl-7wH"/>
+                        <viewControllerLayoutGuide type="bottom" id="UOA-LJ-Orv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2A1-ja-NQb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Risk factors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxB-ga-YIu">
+                                <rect key="frame" x="110" y="52" width="195" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lCZ-PK-c4z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2462.3188405797105" y="369.64285714285711"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="utM-Hs-81u"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="Screen Shot 2022-06-30 at 10.45.30 AM" width="848" height="622"/>
         <image name="Simple White Flower Minimalist Phone Wallpaper" width="1080" height="1920"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
