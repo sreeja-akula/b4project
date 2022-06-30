@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
-        <!--Second.swift-->
+        <!--Swift-->
         <scene sceneID="7xo-s8-1KK">
             <objects>
                 <viewController id="nDK-88-zcg" customClass="Second.swift" sceneMemberID="viewController">
@@ -108,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="79.6875"/>
         </scene>
-        <!--Brain Page.swift-->
+        <!--Swift-->
         <scene sceneID="vxw-Va-r6S">
             <objects>
                 <viewController id="2W4-y2-5kB" customClass="BrainPage.swift" customModule="b4project" customModuleProvider="target" sceneMemberID="viewController">
@@ -128,11 +127,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haC-OZ-Qh1">
-                                <rect key="frame" x="35" y="344" width="344" height="222"/>
+                                <rect key="frame" x="35" y="267" width="344" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The Brain is the dominant part of the Central Nervous System. It controls thought, memory, emotion, touch, motor skills, vision, breathing, temperature, hunger and every process that regulates our body. It makes up about 2-3% of a person’s total body weight. 
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -147,6 +146,65 @@
                                     <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="iUg-T5-3Rb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brain Lobes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE5-kq-Lda">
+                                <rect key="frame" x="111" y="464" width="193" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainlobes" translatesAutoresizingMaskIntoConstraints="NO" id="PRZ-WI-7e1">
+                                <rect key="frame" x="10" y="509" width="394" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Da-pr8">
+                                <rect key="frame" x="35" y="522" width="69" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <state key="normal" title="Frontal Lobe">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="frontalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="Fp6-1H-VCn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5b-tD-oNI">
+                                <rect key="frame" x="289" y="522" width="71" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <state key="normal" title="Parietal Lobe">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="parietalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="K92-m7-mHK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-ph-vfu">
+                                <rect key="frame" x="111" y="717" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <state key="normal" title="Temporal Lobe">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="temporalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="QdS-6Z-a2N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-5X-qT7">
+                                <rect key="frame" x="327" y="677" width="77" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <state key="normal" title="Occipital Lobe">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="occipitalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="O3A-7t-KXB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -156,7 +214,7 @@
             </objects>
             <point key="canvasLocation" x="1586.9565217391305" y="-304.01785714285711"/>
         </scene>
-        <!--Kidneys Page.swift-->
+        <!--Swift-->
         <scene sceneID="dEQ-Jx-yFi">
             <objects>
                 <viewController id="OAi-m6-WLR" customClass="KidneysPage.swift" sceneMemberID="viewController">
@@ -184,7 +242,7 @@
             </objects>
             <point key="canvasLocation" x="806" y="820"/>
         </scene>
-        <!--Heart Page.swift-->
+        <!--Swift-->
         <scene sceneID="chp-k3-X2p">
             <objects>
                 <viewController id="LXN-Pg-b6Y" customClass="HeartPage.swift" sceneMemberID="viewController">
@@ -435,7 +493,6 @@ leaky heart valves</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uBr-qc-ASX"/>
         <segue reference="k69-ez-0gs"/>
         <segue reference="rbb-9o-Nqi"/>
         <segue reference="ErC-aB-jdu"/>
@@ -445,6 +502,7 @@ leaky heart valves</string>
         <image name="Screen Shot 2022-06-30 at 10.45.30 AM" width="848" height="622"/>
         <image name="Simple White Flower Minimalist Phone Wallpaper" width="1080" height="1920"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="brainlobes" width="400" height="272"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
