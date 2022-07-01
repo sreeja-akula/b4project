@@ -308,13 +308,31 @@
                                     <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="PVu-83-6UU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VX6-Af-Rn3">
+                                <rect key="frame" x="37" y="203" width="343" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Occipital Lobe is at the back of each hemisphere. It processes visual signals and coordinates various aspects of vision. It contains the visual cortex, which is important for receiving and interpreting information from the eyes. It also includes the visual association cortex, which helps us recognize lines, angles, shapes, shadows, and movement.
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNG-CA-Mz9">
+                                <rect key="frame" x="37" y="466" width="343" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Damage to the occipital lobe can result in hallucinations, color agnosia, movement agnosia, word blindness, difficulty with locating objects in the environment, difficulty in recognizing drawn objects, difficulties with reading and writing, etc. With enough therapy, the occipital lobe can rewire nerve cells to allow undamaged brain regions to take over functions from damaged ones. Simple things such as eye exercises and scanning therapy can improve occipital lobe function.
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQc-f4-L84" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3591" y="-599"/>
+            <point key="canvasLocation" x="3589.8550724637685" y="-599.33035714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yFB-lx-RuM">
@@ -725,7 +743,7 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         <segue reference="ElE-Ya-0gR"/>
         <segue reference="xXm-hj-6dr"/>
         <segue reference="ErC-aB-jdu"/>
-        <segue reference="Ze1-Kr-5I4"/>
+        <segue reference="PVu-83-6UU"/>
         <segue reference="iUg-T5-3Rb"/>
     </inferredMetricsTieBreakers>
     <resources>
