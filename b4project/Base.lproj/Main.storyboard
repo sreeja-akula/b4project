@@ -563,7 +563,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1fa-8X-zOB">
-                                <rect key="frame" x="42" y="104" width="332" height="478"/>
+                                <rect key="frame" x="42" y="104" width="332" height="428"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">The kidneys are located beneath the ribcage and there are two of them on either side of the spine. Kidneys have the important job of cleaning blood with nephrons which take in blood, metabolize nutrients, and help pass out waste products from filtered blood. Without them there would be an abudnace of extra water and waste products. This could eventually lead to the hands and feet swelling and feeling more tired and weak due to the lack of blood filtering</string>
@@ -571,10 +571,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kidney" translatesAutoresizingMaskIntoConstraints="NO" id="v32-26-DMG">
-                                <rect key="frame" x="61" y="583" width="292" height="176"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyr-Ji-UrI">
                                 <rect key="frame" x="20" y="801" width="120" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -597,6 +593,10 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                     <segue destination="GZb-hJ-r4N" kind="presentation" modalPresentationStyle="fullScreen" id="wIm-uh-No0"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kidney" translatesAutoresizingMaskIntoConstraints="NO" id="v32-26-DMG">
+                                <rect key="frame" x="0.0" y="540" width="423" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.3065562248" green="0.52932119369999997" blue="0.75485563280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -619,7 +619,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Risk Factors" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vDx-La-68h">
-                                <rect key="frame" x="131" y="70" width="185" height="52"/>
+                                <rect key="frame" x="125" y="67" width="164" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -635,10 +635,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chronic" translatesAutoresizingMaskIntoConstraints="NO" id="spi-lU-UyH">
-                                <rect key="frame" x="69" y="131" width="276" height="145"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1l-1Y-mRH">
                                 <rect key="frame" x="284" y="796" width="110" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -661,6 +657,10 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                     <segue destination="OAi-m6-WLR" kind="presentation" modalPresentationStyle="fullScreen" id="W2v-4z-XAo"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chronic" translatesAutoresizingMaskIntoConstraints="NO" id="spi-lU-UyH">
+                                <rect key="frame" x="69" y="119" width="276" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.3065562248" green="0.52932119369999997" blue="0.75485563280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -683,7 +683,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aL6-5T-SM6">
-                                <rect key="frame" x="23" y="52" width="371" height="252"/>
+                                <rect key="frame" x="21" y="52" width="371" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Since the kidneys are such vital organs it is important to keep them healthy. You can do this by keeping active and fit, controlling your amountage of blood sugar, monitor blood pressure, drink plenty of fluids, no smoking and have your kidney function tested if it gets to that point.</string>
@@ -692,7 +692,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-72-Dhd">
-                                <rect key="frame" x="20" y="491" width="374" height="185"/>
+                                <rect key="frame" x="18" y="521" width="374" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Some ways you can heal your kidney if it gets too bad is continue to stay hydrated, take more citamin C, eat apples, kidney beans, lemon juice and honey, watch your blood pressure and eat dates.</string>
@@ -700,10 +700,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Health" translatesAutoresizingMaskIntoConstraints="NO" id="sVb-Qq-M9W">
-                                <rect key="frame" x="55" y="296" width="306" height="176"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baW-iO-ICd">
                                 <rect key="frame" x="281" y="794" width="113" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -726,6 +722,10 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                     <segue destination="GZb-hJ-r4N" kind="presentation" modalPresentationStyle="fullScreen" id="3e7-p3-ArB"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Health" translatesAutoresizingMaskIntoConstraints="NO" id="sVb-Qq-M9W">
+                                <rect key="frame" x="52" y="312" width="306" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.3065562248" green="0.52932119369999997" blue="0.75485563280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1025,7 +1025,7 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         <segue reference="k69-ez-0gs"/>
         <segue reference="rbb-9o-Nqi"/>
         <segue reference="iBD-xk-LGO"/>
-        <segue reference="wIm-uh-No0"/>
+        <segue reference="3e7-p3-ArB"/>
         <segue reference="W2v-4z-XAo"/>
         <segue reference="whh-7D-tOH"/>
         <segue reference="0go-OW-0Zv"/>
