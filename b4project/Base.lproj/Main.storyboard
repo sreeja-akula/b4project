@@ -205,6 +205,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainstructures" translatesAutoresizingMaskIntoConstraints="NO" id="2Ly-SE-1Ik">
+                                <rect key="frame" x="62" y="292" width="313" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brain Structures" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-Lj-huN">
+                                <rect key="frame" x="136" y="263" width="164" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KE-kH-NKg">
+                                <rect key="frame" x="151" y="492" width="113" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="15"/>
+                                <state key="normal" title="See Definitions">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -368,13 +388,31 @@
                                     <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="be4-sG-f2a"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqV-Ci-CIQ">
+                                <rect key="frame" x="32" y="206" width="351" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Temporal Lobe sits behind the ears. It is important for processing auditory information. One major role of the right temporal lobe is processing melody and tonal changes. One major role of the left temporal lobe is language comprehension (Wernicke’s Area). The lower part of each temporal lobe plays a role in visual processing, particularly processing patterns. 
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6g-wW-EBa">
+                                <rect key="frame" x="32" y="451" width="351" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Damage to the temporal lobe can result in trouble understanding language, difficulty with auditory sensation and perception, difficulty with selective attention of auditory and visual input, visual perception disorders, impaired organization and categorization of verbal material, impaired long-term memory, etc. Various forms of therapy can help with recovery. Cognitive rehabilitation exercises can improve temporal lobe function.
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Lc-O2-SUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4349" y="-585"/>
+            <point key="canvasLocation" x="4347.826086956522" y="-585.26785714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wTn-lB-eVJ">
@@ -740,10 +778,11 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Lqm-MA-1ty"/>
         <segue reference="ElE-Ya-0gR"/>
         <segue reference="xXm-hj-6dr"/>
         <segue reference="ErC-aB-jdu"/>
-        <segue reference="PVu-83-6UU"/>
+        <segue reference="be4-sG-f2a"/>
         <segue reference="iUg-T5-3Rb"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -752,6 +791,7 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="brainicon" width="320" height="320"/>
         <image name="brainlobes" width="400" height="272"/>
+        <image name="brainstructures" width="282" height="179"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="getty_rm_illustration_of_heart_attack" width="493" height="335"/>
         <systemColor name="labelColor">
