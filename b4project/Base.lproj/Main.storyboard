@@ -556,12 +556,46 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Kidneys" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-LA-qIi">
-                                <rect key="frame" x="186" y="76" width="94" height="21"/>
+                                <rect key="frame" x="122" y="44" width="171" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1fa-8X-zOB">
+                                <rect key="frame" x="42" y="104" width="332" height="478"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">The kidneys are located beneath the ribcage and there are two of them on either side of the spine. Kidneys have the important job of cleaning blood with nephrons which take in blood, metabolize nutrients, and help pass out waste products from filtered blood. Without them there would be an abudnace of extra water and waste products. This could eventually lead to the hands and feet swelling and feeling more tired and weak due to the lack of blood filtering</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kidney" translatesAutoresizingMaskIntoConstraints="NO" id="v32-26-DMG">
+                                <rect key="frame" x="53" y="544" width="292" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdC-cw-ZuR">
+                                <rect key="frame" x="266" y="780" width="110" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next➡️">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyr-Ji-UrI">
+                                <rect key="frame" x="20" y="780" width="120" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="⬅️Back">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="0go-OW-0Zv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -569,7 +603,43 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDt-91-6OH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="806" y="820"/>
+            <point key="canvasLocation" x="769.56521739130437" y="1094.8660714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="89f-81-nwu">
+            <objects>
+                <viewController id="GZb-hJ-r4N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D6T-Ua-cIa"/>
+                        <viewControllerLayoutGuide type="bottom" id="xgO-ks-fXO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BKI-uc-gQ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzw-hN-0Py" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507" y="1095"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZqV-81-nYO">
+            <objects>
+                <viewController id="mOr-kk-RHA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YwH-fv-Aay"/>
+                        <viewControllerLayoutGuide type="bottom" id="kAK-dw-y6E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ds3-DF-FA0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJt-Aw-ErO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2238" y="1095"/>
         </scene>
         <!--Heart Page.swift-->
         <scene sceneID="chp-k3-X2p">
@@ -832,13 +902,13 @@ leaky heart valves</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9g-v8-HeQ">
                                 <rect key="frame" x="20" y="142" width="374" height="618"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Some lifestyle measures can help to reduce the risk of heart disease. These include
+                                <string key="text">Some lifestyle measures can help to reduce the risk of heart disease. These include
 Eating a balanced diet: Opt for a heart-healthy diet that is rich in fiber and favors whole grains and fresh fruits and vegetables. 
 Exercising regularly: This can help strengthen the heart and circulatory system, reduce cholesterol, and maintain blood pressure. A person may aim for 150 minutes of exercise per week. 
 Maintaining a moderate body weight: A healthy body mass index (BMI) is typically between 20 and 25. 
 Quitting or avoiding smoking: Smoking is a major risk factor for heart and cardiovascular conditions.
 Limiting alcohol intake: 
-Managing underlying conditions: Seek treatment for conditions that affect heart health, such as high blood pressure, obesity, and diabetes.</mutableString>
+Managing underlying conditions: Seek treatment for conditions that affect heart health, such as high blood pressure, obesity, and diabetes.</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -859,12 +929,13 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="k69-ez-0gs"/>
-        <segue reference="xXm-hj-6dr"/>
+        <segue reference="rbb-9o-Nqi"/>
         <segue reference="iBD-xk-LGO"/>
         <segue reference="whh-7D-tOH"/>
-        <segue reference="Zuq-hq-QsD"/>
+        <segue reference="0go-OW-0Zv"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Kidney" width="952" height="712"/>
         <image name="Screen Shot 2022-06-30 at 10.45.30 AM" width="848" height="622"/>
         <image name="Simple White Flower Minimalist Phone Wallpaper" width="1080" height="1920"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
