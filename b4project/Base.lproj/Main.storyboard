@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
-        <!--Second.swift-->
+        <!--Swift-->
         <scene sceneID="7xo-s8-1KK">
             <objects>
                 <viewController id="nDK-88-zcg" customClass="Second.swift" sceneMemberID="viewController">
@@ -174,7 +173,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
             </objects>
             <point key="canvasLocation" x="895.6521739130435" y="-736.60714285714278"/>
         </scene>
-        <!--Brain Page.swift-->
+        <!--Swift-->
         <scene sceneID="vxw-Va-r6S">
             <objects>
                 <viewController id="2W4-y2-5kB" customClass="BrainPage.swift" customModule="b4project" customModuleProvider="target" sceneMemberID="viewController">
@@ -220,7 +219,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5b-tD-oNI">
                                 <rect key="frame" x="289" y="584" width="71" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.30588235289999999" blue="0.30588235289999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Parietal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -232,7 +231,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-ph-vfu">
                                 <rect key="frame" x="111" y="779" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.30588235289999999" blue="0.30588235289999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Temporal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -244,7 +243,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-5X-qT7">
                                 <rect key="frame" x="327" y="738" width="77" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.30588235289999999" blue="0.30588235289999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Occipital Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -256,7 +255,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Da-pr8">
                                 <rect key="frame" x="35" y="584" width="69" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.30588235289999999" blue="0.30588235289999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Frontal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -286,7 +285,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KE-kH-NKg">
                                 <rect key="frame" x="151" y="492" width="113" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.30588235289999999" blue="0.30588235289999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="15"/>
                                 <state key="normal" title="See Definitions">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -543,7 +542,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
             </objects>
             <point key="canvasLocation" x="2322" y="-946"/>
         </scene>
-        <!--Kidneys Page.swift-->
+        <!--Swift-->
         <scene sceneID="dEQ-Jx-yFi">
             <objects>
                 <viewController id="OAi-m6-WLR" customClass="KidneysPage.swift" sceneMemberID="viewController">
@@ -579,10 +578,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <rect key="frame" x="264" y="801" width="110" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next➡️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="GZb-hJ-r4N" kind="presentation" modalPresentationStyle="fullScreen" id="wIm-uh-No0"/>
                                 </connections>
@@ -591,10 +586,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <rect key="frame" x="20" y="798" width="120" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️Back">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="nDK-88-zcg" kind="presentation" modalPresentationStyle="fullScreen" id="0go-OW-0Zv"/>
                                 </connections>
@@ -645,10 +636,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <rect key="frame" x="28" y="796" width="113" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️Back">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="OAi-m6-WLR" kind="presentation" modalPresentationStyle="fullScreen" id="W2v-4z-XAo"/>
                                 </connections>
@@ -657,10 +644,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <rect key="frame" x="235" y="796" width="110" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next➡️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="mOr-kk-RHA" kind="presentation" modalPresentationStyle="fullScreen" id="dJD-rx-tAy"/>
                                 </connections>
@@ -708,10 +691,6 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <rect key="frame" x="20" y="794" width="113" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️Back">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="GZb-hJ-r4N" kind="presentation" modalPresentationStyle="fullScreen" id="3e7-p3-ArB"/>
                                 </connections>
@@ -729,7 +708,7 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
             </objects>
             <point key="canvasLocation" x="2237.68115942029" y="1094.8660714285713"/>
         </scene>
-        <!--Heart Page.swift-->
+        <!--Swift-->
         <scene sceneID="chp-k3-X2p">
             <objects>
                 <viewController id="LXN-Pg-b6Y" customClass="HeartPage.swift" sceneMemberID="viewController">
@@ -1022,7 +1001,7 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         <segue reference="3e7-p3-ArB"/>
         <segue reference="W2v-4z-XAo"/>
         <segue reference="whh-7D-tOH"/>
-        <segue reference="0go-OW-0Zv"/>
+        <segue reference="iUg-T5-3Rb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Chronic" width="1008" height="608"/>
