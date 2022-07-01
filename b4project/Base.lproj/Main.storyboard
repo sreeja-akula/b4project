@@ -107,6 +107,72 @@
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="79.6875"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="acc-3p-NbB">
+            <objects>
+                <viewController id="M0S-tW-dm9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vEa-Aj-95s"/>
+                        <viewControllerLayoutGuide type="bottom" id="YBi-SU-7Ax"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jrp-ra-gkI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brain Structures Definitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pk7-R5-ZzF">
+                                <rect key="frame" x="20" y="52" width="374" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98v-vh-SKf">
+                                <rect key="frame" x="20" y="93" width="374" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Brain Stem: central trunk of the brain, consisting of the medulla oblongata, pons, and midbrain, and continuing downward to form the spinal cord.
+
+Cerebrum: the outer layer of the brain, also known as the cerebral cortex
+
+Cerebellum: plays a role in motor control and movement, including balance, subtle movement, and equilibrium. It affects cognitive functions such as attention and language and develops implicit (procedural) memories
+
+Corpus Callosum: a thick bundle of nerves between the left and right cerebral hemispheres that allows them to share information with each other
+
+Hypothalamus: works in conjunction with many other parts of the brain to regulate the autonomic nervous system. It also releases hormones associated with sexual attraction (oxytocin), regulates body temperature, and plays a role in sleep and fatigue
+
+Medulla: controls involuntary functions such as breathing, heart rate, and blood pressure. It regulates the cardiovascular and respiratory systems
+
+Pituitary Gland: controls metabolism, growth, sexual maturation, reproduction, and blood pressure. It tells other glands to release hormones (“master gland”)
+
+Pons: mass of nerve fibers that serve as relay stations, sending information from the brain stem to the cerebellum and cortex
+
+Thalamus: relays sensory and motor signals. It also regulates consciousness and alertness. It serves as a relay station between the brainstem and the cerebral cortex
+
+Ventricles: communicating network of cavities filled with cerebrospinal fluid (CSF). Helps keep the brain buoyant and cushioned.
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewQ-XX-B3X">
+                                <rect key="frame" x="158" y="825" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="29"/>
+                                <state key="normal" title="⬅️ Back">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="aGO-Ts-jjK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJu-Pv-0Pa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.6521739130435" y="-736.60714285714278"/>
+        </scene>
         <!--Swift-->
         <scene sceneID="vxw-Va-r6S">
             <objects>
@@ -153,7 +219,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5b-tD-oNI">
                                 <rect key="frame" x="289" y="584" width="71" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Parietal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -165,7 +231,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-ph-vfu">
                                 <rect key="frame" x="111" y="779" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Temporal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -177,7 +243,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-5X-qT7">
                                 <rect key="frame" x="327" y="738" width="77" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Occipital Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -189,7 +255,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Da-pr8">
                                 <rect key="frame" x="35" y="584" width="69" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.52941176469999995" blue="0.75686274509999996" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Frontal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -224,6 +290,9 @@
                                 <state key="normal" title="See Definitions">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="M0S-tW-dm9" kind="presentation" modalPresentationStyle="fullScreen" id="l00-bE-0OQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -778,11 +847,11 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Lqm-MA-1ty"/>
+        <segue reference="l00-bE-0OQ"/>
         <segue reference="ElE-Ya-0gR"/>
         <segue reference="xXm-hj-6dr"/>
         <segue reference="ErC-aB-jdu"/>
-        <segue reference="be4-sG-f2a"/>
+        <segue reference="aGO-Ts-jjK"/>
         <segue reference="iUg-T5-3Rb"/>
     </inferredMetricsTieBreakers>
     <resources>
