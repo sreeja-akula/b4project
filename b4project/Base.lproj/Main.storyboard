@@ -576,16 +576,19 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdC-cw-ZuR">
-                                <rect key="frame" x="266" y="780" width="110" height="47"/>
+                                <rect key="frame" x="264" y="801" width="110" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next➡️">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="GZb-hJ-r4N" kind="presentation" modalPresentationStyle="fullScreen" id="wIm-uh-No0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyr-Ji-UrI">
-                                <rect key="frame" x="20" y="780" width="120" height="53"/>
+                                <rect key="frame" x="20" y="798" width="120" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="⬅️Back">
@@ -616,12 +619,57 @@ Ventricles: communicating network of cavities filled with cerebrospinal fluid (C
                     <view key="view" contentMode="scaleToFill" id="BKI-uc-gQ5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Risk Factors" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vDx-La-68h">
+                                <rect key="frame" x="131" y="70" width="185" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6fo-dX-6H9">
+                                <rect key="frame" x="44" y="284" width="327" height="474"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Risk factors include: heart disease, obesity, inherited kidney disorders, past damages with the kidney, older age, diabetes, high blood pressure, smoking, abnormal kidney structure and more. A kidney disease occurs most commonly when someone has diabetes or a high blood pressure. Ways to tell if someone has a high blood pressure is by noticing symptoms such as fatigue, nausea, shortness of breath, lightheadedness, headache, excessive sweating, irregular heart beats, problem with vision or confusion</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chronic" translatesAutoresizingMaskIntoConstraints="NO" id="spi-lU-UyH">
+                                <rect key="frame" x="69" y="131" width="276" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwn-EG-BjV">
+                                <rect key="frame" x="28" y="796" width="113" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="⬅️Back">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="OAi-m6-WLR" kind="presentation" modalPresentationStyle="fullScreen" id="W2v-4z-XAo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1l-1Y-mRH">
+                                <rect key="frame" x="235" y="796" width="110" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next➡️">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Bsq-A4-aVG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzw-hN-0Py" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1507" y="1095"/>
+            <point key="canvasLocation" x="1505.7971014492755" y="1094.8660714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZqV-81-nYO">
@@ -931,10 +979,12 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         <segue reference="k69-ez-0gs"/>
         <segue reference="rbb-9o-Nqi"/>
         <segue reference="iBD-xk-LGO"/>
+        <segue reference="W2v-4z-XAo"/>
         <segue reference="whh-7D-tOH"/>
         <segue reference="0go-OW-0Zv"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Chronic" width="1008" height="608"/>
         <image name="Kidney" width="952" height="712"/>
         <image name="Screen Shot 2022-06-30 at 10.45.30 AM" width="848" height="622"/>
         <image name="Simple White Flower Minimalist Phone Wallpaper" width="1080" height="1920"/>
