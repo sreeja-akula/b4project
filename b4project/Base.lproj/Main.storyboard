@@ -71,7 +71,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2W4-y2-5kB" kind="show" id="whh-7D-tOH"/>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="whh-7D-tOH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="427-EO-kjk">
@@ -116,18 +116,11 @@
                         <viewControllerLayoutGuide type="bottom" id="PJl-k0-Rqu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rAC-J9-SpX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Brain" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjQ-pV-WTh">
-                                <rect key="frame" x="121" y="20" width="172" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haC-OZ-Qh1">
-                                <rect key="frame" x="35" y="267" width="344" height="203"/>
+                                <rect key="frame" x="35" y="81" width="344" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The Brain is the dominant part of the Central Nervous System. It controls thought, memory, emotion, touch, motor skills, vision, breathing, temperature, hunger and every process that regulates our body. It makes up about 2-3% of a person’s total body weight. 
 </string>
@@ -136,10 +129,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n73-Th-pOJ">
-                                <rect key="frame" x="151" y="755" width="113" height="45"/>
+                                <rect key="frame" x="151" y="817" width="113" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="⬅️Back">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="26"/>
+                                <state key="normal" title="⬅️ Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -147,45 +140,54 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brain Lobes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE5-kq-Lda">
-                                <rect key="frame" x="111" y="464" width="193" height="21"/>
+                                <rect key="frame" x="111" y="530" width="193" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainlobes" translatesAutoresizingMaskIntoConstraints="NO" id="PRZ-WI-7e1">
-                                <rect key="frame" x="10" y="509" width="394" height="238"/>
+                                <rect key="frame" x="10" y="571" width="394" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5b-tD-oNI">
-                                <rect key="frame" x="289" y="522" width="71" height="26"/>
+                                <rect key="frame" x="289" y="584" width="71" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Parietal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Nsw-Rg-QV5" kind="presentation" modalPresentationStyle="fullScreen" id="bet-DH-0SG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-ph-vfu">
-                                <rect key="frame" x="111" y="717" width="83" height="30"/>
+                                <rect key="frame" x="111" y="779" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Temporal Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8qL-cA-1CK" kind="presentation" modalPresentationStyle="fullScreen" id="Lqm-MA-1ty"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-5X-qT7">
-                                <rect key="frame" x="327" y="677" width="77" height="26"/>
+                                <rect key="frame" x="327" y="738" width="77" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                                 <state key="normal" title="Occipital Lobe">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qsA-bg-fLY" kind="presentation" modalPresentationStyle="fullScreen" id="cTF-KZ-mz7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Da-pr8">
-                                <rect key="frame" x="35" y="522" width="69" height="26"/>
+                                <rect key="frame" x="35" y="584" width="69" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
@@ -193,10 +195,16 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="fL1:" destination="2W4-y2-5kB" eventType="touchUpInside" id="9rV-DP-Or7"/>
-                                    <action selector="frontalLobe:" destination="2W4-y2-5kB" eventType="touchUpInside" id="VOk-wV-wLM"/>
+                                    <segue destination="cKe-Vb-kiM" kind="presentation" modalPresentationStyle="fullScreen" id="h8A-qQ-oAe"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Brain" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjQ-pV-WTh">
+                                <rect key="frame" x="121" y="44" width="172" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -205,6 +213,209 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkH-MD-VkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1586.9565217391305" y="-304.01785714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YDN-MN-TPq">
+            <objects>
+                <viewController id="Nsw-Rg-QV5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IzU-Ng-Omv"/>
+                        <viewControllerLayoutGuide type="bottom" id="RM1-IO-uwx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nRY-cN-lKP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parietal Lobe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjZ-7z-GVy">
+                                <rect key="frame" x="119" y="52" width="176" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainicon" translatesAutoresizingMaskIntoConstraints="NO" id="atZ-0v-HCC">
+                                <rect key="frame" x="153" y="96" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95t-H1-5k6">
+                                <rect key="frame" x="153" y="817" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="29"/>
+                                <state key="normal" title="⬅️ Back">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="Ze1-Kr-5I4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxm-sQ-rzg">
+                                <rect key="frame" x="30" y="198" width="355" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Parietal Lobe is the part of the brain behind the frontal lobe. It includes the somatosensory cortex, Thus, it is important for processing and integrating certain sensory signals from the body: touch, pressure, temperature, and pain. 
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rb1-Te-U4f">
+                                <rect key="frame" x="30" y="429" width="355" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Damage to the parietal lobe can result in difficulty with reading, recognizing people and objects, and having a comprehensive awareness of the body and limbs and positioning in space. There are many ways to treat parietal lobe damage, such as sensory retraining exercises, proprioceptive training, and visual scanning training.
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ur-YQ-a3Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2785.507246376812" y="-304.01785714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="77o-Fi-04B">
+            <objects>
+                <viewController id="qsA-bg-fLY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="azG-og-aEo"/>
+                        <viewControllerLayoutGuide type="bottom" id="dNN-QQ-qFD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AY9-87-6WK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Occipital Lobe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-Ic-mKU">
+                                <rect key="frame" x="111" y="52" width="192" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainicon" translatesAutoresizingMaskIntoConstraints="NO" id="bjX-1u-inY">
+                                <rect key="frame" x="153" y="100" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaQ-Nm-Xzf">
+                                <rect key="frame" x="158" y="817" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="29"/>
+                                <state key="normal" title="⬅️ Back">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="PVu-83-6UU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQc-f4-L84" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3591" y="-599"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yFB-lx-RuM">
+            <objects>
+                <viewController id="8qL-cA-1CK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PNS-fq-q7F"/>
+                        <viewControllerLayoutGuide type="bottom" id="IOY-3J-7oZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K6A-ZL-Zrv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temporal Lobe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moS-Bh-JQB">
+                                <rect key="frame" x="106" y="52" width="202" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainicon" translatesAutoresizingMaskIntoConstraints="NO" id="MoU-q8-eU0">
+                                <rect key="frame" x="153" y="99" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyF-Oc-JTx">
+                                <rect key="frame" x="158" y="817" width="99" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="29"/>
+                                <state key="normal" title="⬅️ Back">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="be4-sG-f2a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Lc-O2-SUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4349" y="-585"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wTn-lB-eVJ">
+            <objects>
+                <viewController id="cKe-Vb-kiM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfg-Tx-n5m"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xws-4z-elb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hsl-Ce-s98">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frontal Lobe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZD-Au-7tT">
+                                <rect key="frame" x="121" y="47" width="172" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbb-Y2-O2E">
+                                <rect key="frame" x="40" y="154" width="335" height="366"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Frontal Lobe is the part of the brain directly behind the forehead and above the eyes. It is the lobe responsible for decision making, problem-solving, reasoning, planning, personality, &amp; language. It is important for motivation &amp; exercise of willpower. The motor cortex (plays a large role in voluntary movements &amp; working with other parts of the brain) is also located in this lobe.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En8-q4-8B4">
+                                <rect key="frame" x="40" y="485" width="335" height="326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Damage to the neurons or tissue of the frontal lobe can result in personality changes, difficulty concentrating or planning, and impulsivity. Some frontal lobe damage can be repaired through neuroplasticity. However, more severe damage may require medication, surgery, rehabilitation, or therapy. Some things that help improve frontal lobe function are memory exercises, physical exercise, meditation, and a consistent sleep schedule.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brainicon" translatesAutoresizingMaskIntoConstraints="NO" id="Suc-E5-beu">
+                                <rect key="frame" x="153" y="96" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTr-hR-HwZ">
+                                <rect key="frame" x="163" y="812" width="89" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="26"/>
+                                <state key="normal" title="⬅️ Back">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2W4-y2-5kB" kind="presentation" modalPresentationStyle="fullScreen" id="oMw-sb-MTg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uYg-C8-xoD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0FA-q9-1xI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2322" y="-946"/>
         </scene>
         <!--Swift-->
         <scene sceneID="dEQ-Jx-yFi">
@@ -514,12 +725,14 @@ Managing underlying conditions: Seek treatment for conditions that affect heart 
         <segue reference="ElE-Ya-0gR"/>
         <segue reference="xXm-hj-6dr"/>
         <segue reference="ErC-aB-jdu"/>
+        <segue reference="Ze1-Kr-5I4"/>
         <segue reference="iUg-T5-3Rb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-06-30 at 10.45.30 AM" width="848" height="622"/>
         <image name="Simple White Flower Minimalist Phone Wallpaper" width="1080" height="1920"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="brainicon" width="320" height="320"/>
         <image name="brainlobes" width="400" height="272"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="getty_rm_illustration_of_heart_attack" width="493" height="335"/>
